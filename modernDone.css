@@ -1,88 +1,88 @@
 ﻿body {
-	background-color:#363636;
-	font-family: verdana, arial, sans-serif;
-	font-size: 12px;
-	line-height: 1.5em;
-	margin:0;
-	padding:0;
+  background-color:#363636;
+  font-family: verdana, arial, sans-serif;
+  font-size: 12px;
+  line-height: 1.5em;
+  margin:0;
+  padding:0;
 }
 
 /* Header */
 header {
   position: fixed;
-	top: 0px;
-	left: 0px;
-	height: 108px;
-	width: 100%;
-	background-color: #380038;
-	box-shadow: 0 0 5px 3px black;
+  top: 0px;
+  left: 0px;
+  height: 108px;
+  width: 100%;
+  background-color: #380038;
+  box-shadow: 0 0 5px 3px black;
 }
 
 .toptext, .bottomtext {
-	text-align: center;
-	padding: 4px;
+  text-align: center;
+  padding: 4px;
 }
 
 @font-face {
-	font-family : Exo-Black;
-	src: url(./exo/Exo-Black.otf);
+  font-family : Exo-Black;
+  src: url(./exo/Exo-Black.otf);
 }
 
 .toptext {
-	font-family: Exo-Black;
-	color: #f0fff0;
-	font-size: 50px;
-	position: relative;
-	top: 45px;
+  font-family: Exo-Black;
+  color: #f0fff0;
+  font-size: 50px;
+  position: relative;
+  top: 45px;
 }
 
 .bottomtext {
-	color: #f9f9f9
+  color: #f9f9f9
 }
 
 /* Footer */
 footer {
-	position: fixed;
-	bottom: 0px;
-	left: 0px;
-	width: 100%;
-	height: 32px;
-	background-color: #380038
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 32px;
+  background-color: #380038
 }
 
 /* Content */
 main {
-	width: 968px;
-	margin: 0px auto;
-	padding: 108px 0 32px 0;
+  width: 968px;
+  margin: 0px auto;
+  padding: 108px 0 32px 0;
 }
 
 #contentwrapper, .clearfix {
-	background-color: #f9f9f9;
-	color: #444;
-	box-shadow: 0 0 5px 2px black;
+  background-color: #f9f9f9;
+  color: #444;
+  box-shadow: 0 0 5px 2px black;
 }
 
 /* Page Columns */
 section {
-	width: 750px;
-	float: left;
+  width: 750px;
+  float: left;
 }
 nav {
-	float: left;
-	height: 215px;
-	background-color: #777;
-	margin-right: 35px;
-	border-radius: 0 0 15px 15px;
-	background: linear-gradient(#555, #777);
-	transition: height .5s
+  float: left;
+  height: 215px;
+  background-color: #777;
+  margin-right: 35px;
+  border-radius: 0 0 15px 15px;
+  background: linear-gradient(#555, #777);
+  transition: height .5s
 }
 nav:hover {
-	height: 230px;
+  height: 230px;
 }
 nav ul {
   padding: 0;
-	list-style-type: none;
+  list-style-type: none;
 }
 nav ul li {
   margin-top: 1em;
@@ -93,16 +93,16 @@ nav ul li:first-child {
 
 
 .clearfix:after {
-	content: "";
-	display: table;
-	clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
 
 /* Column Content */
 .innertube{
-	margin: 25px;
-	margin-top: 0;
-	padding: 10px;
+  margin: 25px;
+  margin-top: 0;
+  padding: 10px;
 }
 
 /* Links */
